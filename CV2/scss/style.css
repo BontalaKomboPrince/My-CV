@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #EEEEEE;
+  font-family: 'Tw Cen Mt'; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
+div, aside, header, section {
+  box-sizing: border-box; }
+
+aside#sidebar {
+  width: 30%;
+  height: 100vh;
+  background: #fff;
+  position: fixed; }
+  aside#sidebar header {
+    background: #0a73bc;
+    padding-top: 20px;
+    box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
+    text-align: center; }
+    aside#sidebar header div.avatar {
+      background: #fff;
+      width: 150px;
+      margin: 0 auto;
+      height: 150px;
+      border-radius: 100%;
+      box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82, 81, 81, 0.33); }
+    aside#sidebar header div.text {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      aside#sidebar header div.text h1 {
+        color: #fff; }
+      aside#sidebar header div.text p {
+        color: #fff; }
+  aside#sidebar section#skill {
+    padding: 20px 10%;
+    overflow-y: scroll; }
+    aside#sidebar section#skill h2 {
+      font-family: Roboto;
+      color: #6d6d6d; }
+    aside#sidebar section#skill ul#list-skill {
+      height: 300px;
+      display: block;
+      list-style-type: none; }
+      aside#sidebar section#skill ul#list-skill li {
+        display: block;
+        padding: 5px 0; }
+        aside#sidebar section#skill ul#list-skill li h3 {
+          color: #777;
+          font-size: 18px; }
+        aside#sidebar section#skill ul#list-skill li div.level {
+          width: 100%;
+          height: 10px;
+          background: #E0E0E0;
+          border-radius: 10px; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-100 {
+            height: 10px;
+            background: #0A73BC;
+            width: 100%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-95 {
+            height: 10px;
+            background: #0A73BC;
+            width: 95%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-90 {
+            height: 10px;
+            background: #0A73BC;
+            width: 90%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-85 {
+            height: 10px;
+            background: #0A73BC;
+            width: 85%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-80 {
+            height: 10px;
+            background: #0A73BC;
+            width: 80%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-75 {
+            height: 10px;
+            background: #0A73BC;
+            width: 75%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-70 {
+            height: 10px;
+            background: #0A73BC;
+            width: 70%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-65 {
+            height: 10px;
+            background: #0A73BC;
+            width: 65%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-60 {
+            height: 10px;
+            background: #0A73BC;
+            width: 60%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-55 {
+            height: 10px;
+            background: #0A73BC;
+            width: 55%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-50 {
+            height: 10px;
+            background: #0A73BC;
+            width: 50%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-45 {
+            height: 10px;
+            background: #0A73BC;
+            width: 45%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-40 {
+            height: 10px;
+            background: #0A73BC;
+            width: 40%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-35 {
+            height: 10px;
+            background: #0A73BC;
+            width: 35%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-30 {
+            height: 10px;
+            background: #0A73BC;
+            width: 30%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-25 {
+            height: 10px;
+            background: #0A73BC;
+            width: 25%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-20 {
+            height: 10px;
+            background: #0A73BC;
+            width: 20%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-15 {
+            height: 10px;
+            background: #0A73BC;
+            width: 15%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-10 {
+            height: 10px;
+            background: #0A73BC;
+            width: 10%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-5 {
+            height: 10px;
+            background: #0A73BC;
+            width: 5%; }
+
+header#head {
+  background: #fff;
+  width: 75%;
+  left: 30%;
+  position: relative;
+  padding: 10px 0;
+  box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83); }
+  header#head:after {
+    content: '';
+    display: block;
+    clear: both; }
+  header#head div#contact-me, header#head div#about-me {
+    padding: 20px 40px;
+    float: left;
+    width: 48%; }
+    header#head div#contact-me h1, header#head div#about-me h1 {
+      color: #0A73BC; }
+    header#head div#contact-me p, header#head div#about-me p {
+      color: #8a8a8a;
+      font-size: 16px; }
+  header#head div#contact-me ul.list-contact {
+    list-style-type: lower-latin; }
+    header#head div#contact-me ul.list-contact li {
+      display: block;
+      font-size: 18px;
+      color: #8a8a8a; }
+      header#head div#contact-me ul.list-contact li i {
+        margin-right: 10px; }
+  header#head div#about-me {
+    border-left: 1px solid #ccc; }
+
+/*# sourceMappingURL=style.css.map */

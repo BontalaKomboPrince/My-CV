@@ -175,85 +175,104 @@ header#head {
 
 section#bio {
   background: #fff;
-  width: 90%;
+  width: 100%;
   margin: 50px auto;
   overflow: hidden;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px; }
   section#bio div.img-full {
-    width: 100%;
-    height: 510px;
-    position: relative; }
-    section#bio div.img-full img.illustration {
-      width: 65%; }
-    section#bio div.img-full span.bio-icon {
-      position: absolute;
-      top: 10px;
-      left: 60px;
-      color: #fff;
-      font-size: 30px;
-      font-family: "roboto";
-      letter-spacing: 2px; }
-      section#bio div.img-full span.bio-icon i.icon {
-        position: relative;
-        top: 10px;
-        margin-right: 10px;
-        font-size: 50px;
-        display: inline-block; }
-    section#bio div.img-full div.avatar {
-      background: #bbb;
-      width: 125px;
-      height: 125px;
-      z-index: 100;
-      position: absolute;
-      padding: -5%;
-      bottom: 55;
-      left: 10px;
-      border-radius: 100%;
-      box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(176, 176, 176, 0.28); }
-  section#bio div.desc {
-    padding: 20px  10%;
+    max-width: 100%;
+    height: 410px;
     position: relative;
-    top: 5px;
-    overflow-y: scroll; }
-    section#bio div.desc div.title-name {
-      padding-left: 10%;
-      position: relative; }
-      section#bio div.desc div.title-name h2 {
+    background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Kenya243.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: 940px 400px;
+    background-position: left;
+    background-color: #fff;
+    padding-top: -200px; }
+  section#bio span.bio-icon {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "roboto";
+    letter-spacing: 2px; }
+    section#bio span.bio-icon i.icon {
+      position: relative;
+      top: 10px;
+      margin-right: 10px;
+      font-size: 50px;
+      display: inline-block; }
+  section#bio div.avatar {
+    background: #bbb;
+    background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Resume-pp.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 125px;
+    z-index: 100;
+    top: 50px;
+    position: absolute;
+    padding: -5%;
+    top: 450px;
+    bottom: 55;
+    left: 10px;
+    border-radius: 100%;
+    box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(176, 176, 176, 0.28); }
+
+div.desc {
+  padding: 20px  10%;
+  position: relative;
+  top: 45px;
+  overflow-y: scroll; }
+  div.desc div.title-name {
+    padding-left: 5%;
+    position: relative; }
+    div.desc div.title-name h2 {
+      font-family: 'raleway'; }
+      div.desc div.title-name h2 p {
         font-family: 'raleway'; }
-        section#bio div.desc div.title-name h2 p {
-          font-family: 'raleway'; }
-        section#bio div.desc div.title-name h2 span.icon {
-          display: inline-block;
-          position: absolute;
-          top: 5px;
-          right: 10px; }
-          section#bio div.desc div.title-name h2 span.icon i {
-            font-family: 40px;
-            color: #B9B9B9; }
-  section#bio div.biodata {
-    padding: 5px 0; }
-    section#bio div.biodata ul {
-      list-style-type: none; }
-      section#bio div.biodata ul li {
-        font-size: 15px; }
-        section#bio div.biodata ul li p {
-          color: #aaa;
-          font-weight: lighter;
-          padding-left: -5px; }
-  section#bio div.social {
-    padding: 30px 0; }
-    section#bio div.social ul {
-      list-style-type: none; }
-      section#bio div.social ul li {
-        display: block; }
-        section#bio div.social ul li a {
-          text-decoration: none;
-          color: #959595; }
-          section#bio div.social ul li a i {
-            padding: 5px;
-            font-size: 15px; }
-  section#bio hr.separator {
-    border: 1px solid #ccc; }
+      div.desc div.title-name h2 span.icon {
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        right: 10px; }
+        div.desc div.title-name h2 span.icon i {
+          font-family: 40px;
+          color: #B9B9B9; }
+
+div.biodata {
+  padding: 5px 0; }
+  div.biodata ul {
+    list-style-type: none; }
+    div.biodata ul li {
+      font-size: 15px; }
+      div.biodata ul li p {
+        color: #aaa;
+        font-weight: lighter;
+        padding-left: -5px; }
+
+div.social {
+  margin-top: -40px;
+  padding: 30px 0; }
+  div.social ul {
+    list-style-type: none; }
+    div.social ul li {
+      display: block; }
+      div.social ul li a {
+        text-decoration: none;
+        color: #959595; }
+        div.social ul li a i {
+          padding: 5px;
+          font-size: 15px; }
+
+hr.separator {
+  border: 3px solid #ccc;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset; }
 
 /*# sourceMappingURL=style.css.map */

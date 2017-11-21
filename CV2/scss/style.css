@@ -1,86 +1,289 @@
-/*
-Error: Invalid CSS after "...mage: url(https": expected comma, was "://github.com/B..."
-        on line 31 of style.scss
+body {
+  margin: 0;
+  padding: 0;
+  background: #EEEEEE;
+  font-family: 'Tw Cen Mt'; }
 
-26:     padding-top: 20px;
-27:     box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
-28:     text-align: center;
-29:       div.avatar {
-30:          background: #fff;
-31:          background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/IMG_6992%20(1).jpg?raw=true);
-32:         background-position: center;
-33:         background-repeat: no-repeat;
-34:          width: 150px;
-35:          margin: 0 auto;
-36:          height: 150px;
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
 
-Backtrace:
-style.scss:31
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/lexer.rb:231:in `expected!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:572:in `arglist'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:558:in `fn_arglist'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:520:in `funcall'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:500:in `ident'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_not'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_div'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_minus'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_plus'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `times_div_or_mod'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `plus_or_minus'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `relational'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `eq_or_neq'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `and_expr'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `or_expr'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:474:in `space'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:415:in `interpolation'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:339:in `expr'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:722:in `assert_expr'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/script/parser.rb:68:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1134:in `sass_script'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:988:in `value!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:796:in `block in try_declaration'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1254:in `rethrow'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:809:in `try_declaration'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:670:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...mage: url(https\": expected comma, was \"://github.com/B...\"\A         on line 31 of style.scss\A \A 26:     padding-top: 20px;\A 27:     box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);\A 28:     text-align: center;\A 29:       div.avatar {\A 30:          background: #fff;\A 31:          background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/IMG_6992%20(1).jpg?raw=true);\A 32:         background-position: center;\A 33:         background-repeat: no-repeat;\A 34:          width: 150px;\A 35:          margin: 0 auto;\A 36:          height: 150px;"; }
+div, aside, header, section {
+  box-sizing: border-box; }
+
+aside#sidebar {
+  width: 30%;
+  height: 100vh;
+  background: #fff;
+  position: fixed; }
+  aside#sidebar header {
+    background: #0a73bc;
+    padding-top: 20px;
+    box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
+    text-align: center; }
+    aside#sidebar header div.avatar {
+      background: #fff;
+      background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Funnyface.jpg?raw=true);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 150px;
+      margin: 0 auto;
+      height: 150px;
+      border-radius: 100%;
+      box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82, 81, 81, 0.33); }
+    aside#sidebar header div.text {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      aside#sidebar header div.text h1 {
+        color: #fff; }
+      aside#sidebar header div.text p {
+        color: #fff; }
+  aside#sidebar section#skill {
+    padding: 20px 10%;
+    overflow-y: scroll; }
+    aside#sidebar section#skill h2 {
+      font-family: Roboto;
+      color: #6d6d6d; }
+    aside#sidebar section#skill ul#list-skill {
+      height: 300px;
+      display: block;
+      list-style-type: none; }
+      aside#sidebar section#skill ul#list-skill li {
+        display: block;
+        padding: 5px 0; }
+        aside#sidebar section#skill ul#list-skill li h3 {
+          color: #777;
+          font-size: 18px; }
+        aside#sidebar section#skill ul#list-skill li div.level {
+          width: 100%;
+          height: 10px;
+          background: #E0E0E0;
+          border-radius: 10px; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-100 {
+            height: 10px;
+            background: #0A73BC;
+            width: 100%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-95 {
+            height: 10px;
+            background: #0A73BC;
+            width: 95%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-90 {
+            height: 10px;
+            background: #0A73BC;
+            width: 90%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-85 {
+            height: 10px;
+            background: #0A73BC;
+            width: 85%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-80 {
+            height: 10px;
+            background: #0A73BC;
+            width: 80%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-75 {
+            height: 10px;
+            background: #0A73BC;
+            width: 75%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-70 {
+            height: 10px;
+            background: #0A73BC;
+            width: 70%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-65 {
+            height: 10px;
+            background: #0A73BC;
+            width: 65%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-60 {
+            height: 10px;
+            background: #0A73BC;
+            width: 60%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-55 {
+            height: 10px;
+            background: #0A73BC;
+            width: 55%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-50 {
+            height: 10px;
+            background: #0A73BC;
+            width: 50%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-45 {
+            height: 10px;
+            background: #0A73BC;
+            width: 45%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-40 {
+            height: 10px;
+            background: #0A73BC;
+            width: 40%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-35 {
+            height: 10px;
+            background: #0A73BC;
+            width: 35%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-30 {
+            height: 10px;
+            background: #0A73BC;
+            width: 30%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-25 {
+            height: 10px;
+            background: #0A73BC;
+            width: 25%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-20 {
+            height: 10px;
+            background: #0A73BC;
+            width: 20%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-15 {
+            height: 10px;
+            background: #0A73BC;
+            width: 15%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-10 {
+            height: 10px;
+            background: #0A73BC;
+            width: 10%; }
+          aside#sidebar section#skill ul#list-skill li div.level div.level-5 {
+            height: 10px;
+            background: #0A73BC;
+            width: 5%; }
+
+div.container {
+  background: #fff;
+  width: 75%;
+  left: 30%;
+  position: relative; }
+
+header#head {
+  width: 100%;
+  position: relative;
+  padding: 10px 0;
+  box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83); }
+  header#head:after {
+    content: '';
+    display: block;
+    clear: both; }
+  header#head div#contact-me, header#head div#about-me {
+    padding: 20px 40px;
+    float: left;
+    width: 48%; }
+    header#head div#contact-me h1, header#head div#about-me h1 {
+      color: #0A73BC; }
+    header#head div#contact-me p, header#head div#about-me p {
+      color: #8a8a8a;
+      font-size: 16px; }
+  header#head div#contact-me ul.list-contact {
+    list-style-type: lower-latin; }
+    header#head div#contact-me ul.list-contact li {
+      display: block;
+      font-size: 18px;
+      color: #8a8a8a;
+      padding: 3px 0; }
+      header#head div#contact-me ul.list-contact li i {
+        margin-right: 10px; }
+  header#head div#about-me {
+    border-left: 1px solid #ccc; }
+
+section#bio {
+  background: #fff;
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+  section#bio div.img-full {
+    max-width: 100%;
+    height: 410px;
+    position: relative;
+    background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Kenya243.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: 940px 400px;
+    background-position: left;
+    background-color: #fff;
+    padding-top: -200px; }
+  section#bio span.bio-icon {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "roboto";
+    letter-spacing: 2px; }
+    section#bio span.bio-icon i.icon {
+      position: relative;
+      top: 20px;
+      margin-right: 10px;
+      font-size: 50px;
+      display: inline-block; }
+  section#bio div.avatar {
+    background: #bbb;
+    background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Resume-pp.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 125px;
+    z-index: 100;
+    top: 50px;
+    position: absolute;
+    padding: -5%;
+    top: 450px;
+    bottom: 55;
+    left: 10px;
+    border-radius: 100%;
+    box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(176, 176, 176, 0.28); }
+
+div.desc {
+  padding: 20px  10%;
+  position: relative;
+  top: 45px;
+  overflow-y: scroll; }
+  div.desc div.title-name {
+    padding-left: 5%;
+    font-size: 30px;
+    position: relative; }
+    div.desc div.title-name h2 {
+      font-family: 'raleway'; }
+      div.desc div.title-name h2 p {
+        font-family: 'raleway'; }
+      div.desc div.title-name h2 span.icon {
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        right: 10px; }
+        div.desc div.title-name h2 span.icon i {
+          font-family: 40px;
+          color: #B9B9B9; }
+
+div.biodata {
+  padding: 5px 0; }
+  div.biodata ul {
+    list-style-type: none; }
+    div.biodata ul li {
+      font-size: 15px; }
+      div.biodata ul li p {
+        color: #aaa;
+        font-weight: lighter;
+        padding-left: -5px; }
+
+div.social {
+  margin-top: -40px;
+  padding: 30px 0; }
+  div.social ul {
+    list-style-type: none; }
+    div.social ul li {
+      display: inline-block; }
+      div.social ul li a {
+        text-decoration: none;
+        font-size: 15px; }
+        div.social ul li a i {
+          margin: 6px;
+          list-style: none;
+          padding: 5px;
+          font-size: 60px;
+          transition: all ease-in-out 250ms;
+          color: #959595; }
+        div.social ul li a i:hover {
+          color: #b9b9b9; }
+
+hr.separator {
+  border: 3px solid #ccc;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset; }
+
+/*# sourceMappingURL=style.css.map */

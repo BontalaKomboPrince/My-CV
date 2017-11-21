@@ -28,9 +28,10 @@ aside#sidebar {
     text-align: center;
       div.avatar {
          background: #fff;
-         background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/IMG_6992%20(1).jpg?raw=true);
+         background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Funnyface.jpg?raw=true);
         background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
          width: 150px;
          margin: 0 auto;
          height: 150px;
@@ -215,7 +216,7 @@ section#bio {
     }
     span.bio-icon {
       position: absolute;
-      top: 10px;
+      top: 30px;
       left: 60px;
       color: #fff;
       font-size: 30px;
@@ -224,7 +225,7 @@ section#bio {
 
       i.icon {
         position: relative;
-        top: 10px;
+        top: 20px;
         margin-right: 10px;
         font-size: 50px;
         display: inline-block;
@@ -259,6 +260,7 @@ section#bio {
     overflow-y: scroll;
     div.title-name {
       padding-left: 5%;
+      font-size: 30px;
       position: relative;
       h2 {
         font-family: 'raleway';
@@ -295,18 +297,25 @@ section#bio {
     }
     div.social{
       margin-top: -40px;
-
       padding: 30px 0;
       ul {
         list-style-type: none;
         li{
-          display: block;
+          display: inline-block;
+
           a {
             text-decoration: none;
-            color: #959595;
-            i{
+            font-size: 15px;
+              i{
+              margin:  6px;
+              list-style:none;
               padding:5px;
-              font-size: 15px;
+              font-size: 60px;
+              transition: all ease-in-out 250ms;
+              color: #959595;
+            }
+            i:hover{
+              color: #b9b9b9;
             }
           }
         }

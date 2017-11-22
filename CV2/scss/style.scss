@@ -1,0 +1,375 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #EEEEEE;
+  font-family: 'Tw Cen Mt';
+}
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+div, aside, header, section {
+  box-sizing: border-box;
+}
+
+aside#sidebar {
+  width: 30%;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+
+  header {
+    background: #0a73bc;
+    padding-top: 20px;
+    box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
+    text-align: center;
+      div.avatar {
+         background: #fff;
+         background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Funnyface.jpg?raw=true);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         width: 150px;
+         margin: 0 auto;
+         height: 150px;
+         border-radius: 100%;
+         box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82,81,81,0.33);
+      }
+      div.text{
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        h1 {
+          color: #fff;
+        }
+        p{
+          color: #fff;
+      }
+      }
+  }
+
+  section#skill {
+    padding: 20px 10%;
+    overflow-y: scroll;
+
+    h2{
+        font-family: Roboto;
+        color: #6d6d6d;
+    }
+    ul#list-skill {
+      height: 300px;
+      display:block;
+      list-style-type:none;
+      li {
+        display:block;
+        padding: 5px 0;
+        h3 {
+          color: #777;
+          font-size: 18px;
+        }
+        div.level{
+          width: 100%;
+          height: 10px;
+          background: #E0E0E0;
+          border-radius: 10px;
+
+          @mixin Level-volume($vol){
+            height:10px;
+            background: #0A73BC;
+            width: (100%/20)* $vol;
+          }
+
+          div.level-100{
+            @include Level-volume(20);
+            }
+          div.level-95{
+            @include Level-volume(19);
+          }
+          div.level-90{
+            @include Level-volume(18);
+          }
+          div.level-85{
+            @include Level-volume(17);
+          }
+          div.level-80{
+            @include Level-volume(16);
+          }
+          div.level-75{
+            @include Level-volume(15);
+          }
+          div.level-70{
+            @include Level-volume(14);
+          }
+          div.level-65{
+            @include Level-volume(13);
+          }
+          div.level-60{
+            @include Level-volume(12);
+          }
+          div.level-55{
+            @include Level-volume(11);
+          }
+          div.level-50{
+            @include Level-volume(10);
+          }
+          div.level-45{
+            @include Level-volume(9);
+          }
+          div.level-40{
+            @include Level-volume(8);
+          }
+          div.level-35{
+            @include Level-volume(7);
+          }
+          div.level-30{
+            @include Level-volume(6);
+          }
+          div.level-25{
+            @include Level-volume(5);
+          }
+          div.level-20{
+            @include Level-volume(4);
+          }
+          div.level-15{
+            @include Level-volume(3);
+          }
+          div.level-10{
+            @include Level-volume(2);
+          }
+          div.level-5{
+            @include Level-volume(1);
+          }
+        }
+      }
+    }
+  }
+}
+div.container {
+  background: #fff;
+  width: 75%;
+  left: 30%;
+  position:relative;
+}
+header#head {
+  width: 100%;
+  position: relative;
+  padding: 10px 0;
+  box-shadow: 0px 0px 27px 0px rgba(182,182,182,0.83);
+
+  &:after {
+    content:'';
+    display: block;
+    clear: both;
+  }
+  div#contact-me, div#about-me {
+    padding: 20px 40px;
+    float: left;
+    width: 48%;
+    h1 {
+      color: #0A73BC;
+    }
+    p{
+      color:#8a8a8a;
+      font-size: 16px;
+    }
+  }
+div#contact-me {
+  ul.list-contact {
+    list-style-type:lower-latin;
+    li{
+      display: block;
+      font-size: 18px;
+      color: #8a8a8a;
+      padding: 3px 0;
+      i{
+        margin-right: 10px;
+      }
+    }
+  }
+}
+div#about-me {
+  border-left: 1px solid #ccc;
+}
+}
+
+section#bio {
+  background: #fff;
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  div.img-full {
+    max-width: 100%;
+    height: 410px;
+    position: relative;
+    background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Kenya243.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: 940px 400px;
+    background-position: left;
+    background-color: #fff;
+    padding-top: -200px;
+    }
+    span.bio-icon {
+      position: absolute;
+      top: 30px;
+      left: 60px;
+      color: #fff;
+      font-size: 30px;
+      font-family: "roboto";
+      letter-spacing: 2px;
+
+      i.icon {
+        position: relative;
+        top: 20px;
+        margin-right: 10px;
+        font-size: 50px;
+        display: inline-block;
+      }
+    }
+    div.avatar{
+        background: #bbb;
+        background-image: url(https://github.com/BontalaKomboPrince/My-CV/blob/master/images/Resume-pp.jpg?raw=true);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: 125px;
+        height: 125px;
+        z-index: 100;
+        top: 50px;
+
+        position: absolute;
+        padding: -5%;
+        top: 450px;
+        bottom: 55;
+        left: 10px;
+        border-radius: 100%;
+        box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(176, 176, 176, 0.28  );
+    }
+
+
+  }
+  div.desc {
+    padding: 20px  10%;
+    position: relative;
+    top: 45px;
+    overflow-y: scroll;
+    div.title-name {
+      padding-left: 5%;
+      font-size: 30px;
+      position: relative;
+      h2 {
+        font-family: 'raleway';
+        p {
+          font-family: 'raleway';
+        }
+        span.icon {
+          display: inline-block;
+          position: absolute;
+          top: 5px;
+          right: 10px;
+          i{
+            font-family: 40px;
+            color: #B9B9B9;
+          }
+        }
+      }
+    }
+  }
+    div.biodata {
+      padding: 5px 0;
+      ul {
+        list-style-type: none;
+        li {
+          font-size: 15px;
+          span.biodata-title{
+            font-style: oblique;
+            font-weight: bold;
+            font-size: 20px;
+          }
+          p {
+            color: #aaa;
+            font-weight: lighter;
+            padding-left: -5px;
+          }
+          p.biodata-text{
+            font-weight:normal;
+color: black;         }
+          }
+
+        }
+      }
+      div.educ {
+        padding: 5px 0;
+        ul {
+          list-style-type: none;
+          li {
+            font-size: 15px;
+            span.educ-title{
+              font-style: oblique;
+              font-weight: bold;
+              font-size: 20px;
+            }
+            p {
+              color: #aaa;
+              font-weight: lighter;
+              padding-left: -5px;
+            }
+            p.diplome{
+              font-style: italic;
+              font-family: fantasy;
+              font-weight: 100;
+              text-align: left;
+              color: black;
+            }
+            p.educ-text{
+              font-weight:normal;
+              color: black;
+              }
+              table.educ-text{
+                width: 100%;
+                text-align: center;
+              }
+            }
+
+          }
+        }
+
+    div.social{
+      margin-top: -40px;
+      padding: 30px 0;
+      ul {
+        list-style-type: none;
+        li{
+          display: inline-block;
+
+          a {
+            text-decoration: none;
+            font-size: 15px;
+              i{
+              margin:  6px;
+              list-style:none;
+              padding:5px;
+              font-size: 60px;
+              transition: all ease-in-out 250ms;
+              color: #959595;
+            }
+            i:hover{
+              color: #b9b9b9;
+            }
+          }
+        }
+      }
+    }
+    hr.separator{
+      border: 3px solid#ccc;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    }
